@@ -56,4 +56,12 @@ docker run --gpus all -it --rm \
 Once running, open the browser link that appears (e.g. http://127.0.0.1:8888/lab?...).
 ---------------------------------------------------------------------------------------------------
 
+4️⃣ Verify GPU Access
 
+Inside the container:
+
+nvidia-smi
+python -c "import torch; print(torch.cuda.is_available())"
+
+
+**You should see your GPU and True.**
