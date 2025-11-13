@@ -38,4 +38,10 @@ cd ModelApp
 2️⃣ Build the Docker Image
 sudo docker build -t modelapp-container .
 
+3️⃣ Run the Container (GPU + Jupyter)
+docker run --gpus all -it --rm \
+  -p 8888:8888 \
+  -v $(pwd):/workspace \
+  modelapp-container
+
 
