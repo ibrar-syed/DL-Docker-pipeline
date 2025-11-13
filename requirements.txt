@@ -1,0 +1,9 @@
+🧰 Requirements
+
+Ubuntu 22.04+
+
+Docker & NVIDIA Container Toolkit
+
+NVIDIA Driver (≥ 535)
+
+GPU with CUDA 12+ support
