@@ -1,0 +1,10 @@
+Main_Folder_of_Model/
+├── Dockerfile
+├── environment.yml
+├── requirements.txt
+├── src/
+│ ├── train.py
+│ └── inference.py
+├── notebooks/
+│ └── demo_notebook.ipynb
+└── data/
