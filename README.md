@@ -65,3 +65,18 @@ python -c "import torch; print(torch.cuda.is_available())"
 
 
 **You should see your GPU and True.**
+
+
+
+🧩 Development Inside Container
+
+**To open a terminal inside container:**
+
+docker exec -it <container_id> /bin/bash
+
+
+##To run training:
+
+cd /workspace/src
+python train.py
+
