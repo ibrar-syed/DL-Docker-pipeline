@@ -75,8 +75,22 @@ python -c "import torch; print(torch.cuda.is_available())"
 docker exec -it <container_id> /bin/bash
 
 
-##To run training:
 
-cd /workspace/src
+
+##To run training:
 python train.py
+
+
+------------------------------------------------------------------------------------------------------------------
+✅ Why This Setup?
+
+Reproducible ML experiments
+
+Full GPU acceleration
+
+No “it works on my machine” issues
+
+Portable across OS/machines
+
+Seamless JupyterLab workflowcd /workspace/src
 
