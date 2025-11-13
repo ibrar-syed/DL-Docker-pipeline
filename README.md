@@ -44,4 +44,16 @@ docker run --gpus all -it --rm \
   -v $(pwd):/workspace \
   modelapp-container
 
+-------------------------------------------------------------------------------------------------
+📎 Flags:
+
+--gpus all → enables GPU access inside container
+
+-p 8888:8888 → maps JupyterLab port
+
+-v $(pwd):/workspace → mounts project folder
+
+Once running, open the browser link that appears (e.g. http://127.0.0.1:8888/lab?...).
+---------------------------------------------------------------------------------------------------
+
 
