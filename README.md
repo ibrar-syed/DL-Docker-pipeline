@@ -12,3 +12,13 @@ A complete, reproducible setup for deep learning experiments using **Docker**, *
 
 ## 📁 Project Structure
 
+ModelApp/
+├── Dockerfile
+├── environment.yml
+├── requirements.txt
+├── src/
+│ ├── train.py
+│ └── inference.py
+├── notebooks/
+│ └── demo_notebook.ipynb
+└── data/
