@@ -1,0 +1,23 @@
+name: modelapp
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit
+  - monai
+  - numpy
+  - pandas
+  - scikit-learn
+  - nibabel
+  - jupyterlab
+  - pip
+  - pip:
+      - tqdm
+      - matplotlib
+      - seaborn
+      - opencv-python
