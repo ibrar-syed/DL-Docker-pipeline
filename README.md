@@ -33,3 +33,9 @@ ModelApp/
 ```bash
 git clone https://github.com/<your-username>/ModelApp.git
 cd ModelApp
+
+
+2️⃣ Build the Docker Image
+sudo docker build -t modelapp-container .
+
+
