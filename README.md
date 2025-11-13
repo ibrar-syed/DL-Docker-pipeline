@@ -22,3 +22,14 @@ ModelApp/
 ├── notebooks/
 │ └── demo_notebook.ipynb
 └── data/
+
+
+---
+
+## 🚀 Quick Start
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/ModelApp.git
+cd ModelApp
