@@ -94,3 +94,13 @@ Portable across OS/machines
 
 Seamless JupyterLab workflowcd /workspace/src
 
+---------------------------------------------------------------------------------------------------------------------
+👥 Contributing
+
+Fork this repo
+
+Create a new branch (feature/my-feature)
+
+Commit your changes
+
+Submit a pull request 🚀
