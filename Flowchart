@@ -1,0 +1,32 @@
+[Start]
+   |
+ [Check host prerequisites]
+   |
+  / \
+ /   \
+No    Yes
+ |      |
+Install Drivers/CUDA/cuDNN -> Check NVIDIA Container Toolkit
+ |                              |
+ v                              v
+Install Toolkit? ---------------Yes
+   |                              |
+   v                              v
+Clone DL-Docker-pipeline repo --> Inspect Dockerfile & env
+                                   |
+                                 Build image
+                                   |
+                              Build success?
+                              /         \
+                            No           Yes
+                            |              |
+                      Fix/pin versions   Run container (with --gpus)
+                            |              |
+                            v              v
+                         Rebuild        Jupyter starts
+                                           |
+                                       Open browser
+                                           |
+                                     Run training/inference
+                                           |
+                                  Save/export image or results
