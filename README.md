@@ -93,4 +93,4 @@ Create a new branch (feature/my-feature)
 
 Commit your changes
 
-Submit a pull request 🚀
+Submit a pull request 
