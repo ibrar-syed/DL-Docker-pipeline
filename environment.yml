@@ -1,24 +1,17 @@
-#######environment requirements
 name: modelapp
 channels:
+  - conda-forge
   - defaults
   - pytorch
-  - nvidia
 dependencies:
   - python=3.10
-  - pytorch
-  - torchvision
-  - torchaudio
-  - cudatoolkit
-  - monai
-  - numpy
-  - pandas
-  - scikit-learn
-  - nibabel
-  - jupyterlab
+  - pytorch=2.2.0
+  - torchvision=0.15.0
+  - cudatoolkit=12.1
+  - numpy=1.25
+  - pandas=2.2
+  - jupyterlab=4.1
   - pip
   - pip:
-      - tqdm
-      - matplotlib
-      - seaborn
-      - opencv-python
+    - tqdm==4.66.1
+    - opencv-python==4.9.0.66
