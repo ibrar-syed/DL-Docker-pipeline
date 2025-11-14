@@ -3,7 +3,7 @@ Main_Folder_of_Model/
 ├── Dockerfile
 ├── environment.yml
 ├── requirements.txt
-├── src/
+├── src/             ← your main model/architecture is pasted here
 │ ├── train.py
 │ └── inference.py
 ├── notebooks/
