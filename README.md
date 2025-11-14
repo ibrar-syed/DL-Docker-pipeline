@@ -15,7 +15,7 @@ A complete, reproducible setup for deep learning experiments using **Docker**, *
 ---
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1️ Clone the Repository
 
